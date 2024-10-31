@@ -1,0 +1,336 @@
+.cpPopupWrapper {
+background: rgb(255, 255, 255) none repeat scroll 0%; 
+visibility: hidden; 
+display: none; 
+position: absolute; 
+z-index: 999999; 
+width:auto;
+}
+.cpPopupWrapper img {border: 0; } 
+.cpPopupWrapper * { border:0; text-indent: 0; margin: 0; padding: 0; height:auto; text-transform:none; text-align:left; line-height:normal; vertical-align:middle}  
+.cpPopupWrapper table, .cpPopupWrapper p, .cpPopupWrapper TR, .cpPopupWrapper TD, .cpPopupWrapper col {background:none;}
+.cpPopupWrapper a:hover, .cpPopupWrapper input:hover, .cpPopupWrapper button:hover { border:0; }
+
+.cpPopupBody, .cpPopupBody TD {
+font-size: 8pt;
+font-family: tahoma;
+color: rgb(34, 34, 34);
+}
+
+.cpPopupBody {
+margin: 0;
+background: #96b2ca;
+padding: 1px 2px 2px 2px;
+text-align:center;
+}
+
+.cpPopupBodyProfile {
+width: 600px; 
+}
+.cpPopupBodyProfile * { line-height:150%; }
+
+.cpPopupBodyRating {
+width: 300px; 
+} 
+
+.cpPopupHeaderClose {
+margin: 0pt; 
+height: 14px; 
+width: 100%; 
+text-align: right;
+}
+
+a.cpPopupHeaderCloseButton, a.cpPopupHeaderCloseButton:hover{
+width:13px;
+height:13px;
+background: transparent url(http://s3.amazonaws.com/sz_images/all_icons.gif) no-repeat top right; 
+background-position: -54px 0px;
+float: right;
+text-decoration: none;
+}
+
+.cpPopupHeaderTitle {
+background: #f3f5e9;
+height: 49px; 
+width: 100%; 
+margin: 0;
+}
+img.cpPopupWaitingImage {
+vertical-align:middle;
+background:none;
+border:0 none; 
+padding:0;
+margin:0;
+}
+
+.cpPopupHeaderTitleText {
+border: 0pt none ; 
+margin: 0pt 0 0  8px; 
+padding: 10px 0px 0pt 0pt; 
+color: #333333; 
+text-align: left; 
+float: left;
+width: 55%; 
+font-size: 13pt; 
+font-family: tahoma; 
+line-height: 1.5em;
+}
+.cpPopupBodyRating .cpPopupHeaderTitleText {width:150px;}
+
+a.cpPopupHeaderTitleLogo, a.cpPopupHeaderTitleLogo:link, a.cpPopupHeaderTitleLogo:visited, a.cpPopupHeaderTitleLogo:hover, a.cpPopupHeaderTitleLogo:active{
+border: 0pt none ; 
+margin: 8px 0pt 0pt 0px; 
+background: transparent url(http://s3.amazonaws.com/sz_images/all_icons.gif) no-repeat scroll right top; 
+background-position: 0px -87px;
+float: right; 
+width: 128px; 
+height: 36px; 
+display: block; 
+text-decoration: none;
+}
+
+.cpPopupContentBody, .cpPopupContentloading {
+margin: 0pt; 
+padding: 5px 8px; 
+background: rgb(255, 255, 255) none repeat scroll 0%; 
+clear: both;
+position:relative;
+}
+.cpPopupContentBody P{color:#333333;position:relative; font-family: tahoma, Verdana, Arial, Helvetica, sans-serif;font-size:9pt; font-size-adjust:none; font-stretch:normal; font-style:normal; font-variant:normal; font-weight:normal; letter-spacing:normal;}
+
+.cpPopupContentloading {
+text-align:center;
+}
+
+.cpPopupContentloading IMG {
+padding:15px 0;
+}
+
+TABLE.cpPopupContentTable {
+width:100%;
+padding:0;
+border:0 none;
+line-height: 150%; 
+text-align: left; 
+margin:0;
+border-collapse:collapse;
+background: transparent none repeat scroll 0%;
+}
+TABLE.cpEmbedPageTable {
+width:100%;
+}
+TABLE.cpEmbedPageTable, TD.cpEmbedPageTableCell, TD.cpEmbedPageTableIMGCell, TD.cpEmbedPageTableCellBranding, P.cpEmbedSelectParagraph, A.cpEmbedPageTableCellBrandingLink, A.cpEmbedPageTableCellBrandingLink:link, A.cpEmbedPageTableCellBrandingLink:visited, A.cpEmbedPageTableCellBrandingLink:hover, A.cpEmbedPageTableCellBrandingLink:active, TD.cpEmbedPageTablePMCell, TD.cpEmbedPageTableScoreCell{
+padding:0;
+border:0 none;
+text-align: left; 
+margin:0;
+border-collapse:collapse;
+background: transparent none repeat scroll 0%;
+}
+TD.cpEmbedPageTable{
+width:12px;
+vertical-align:middle;
+}
+TD.cpEmbedPageTableIMGCell{
+width:30px;
+vertical-align:middle;
+}
+TD.cpEmbedPageTableCell{
+vertical-align:middle;
+}
+TD.cpEmbedPageTablePMCell {
+width:12px;
+vertical-align:middle;
+}
+TD.cpEmbedPageTableScoreCell {
+width:72px;
+text-align:right;
+}
+
+TD.cpEmbedPageTableCellBranding {
+width:70px;
+height: 40px;
+}
+A.cpEmbedPageTableCellBrandingLink, A.cpEmbedPageTableCellBrandingLink:link, A.cpEmbedPageTableCellBrandingLink:visited, A.cpEmbedPageTableCellBrandingLink:hover, A.cpEmbedPageTableCellBrandingLink:active, A.cpEmbedPageTableCellBrandingLinkIE, A.cpEmbedPageTableCellBrandingLinkIE:link, A.cpEmbedPageTableCellBrandingLinkIE:visited, A.cpEmbedPageTableCellBrandingLinkIE:hover, A.cpEmbedPageTableCellBrandingLinkIE:active{
+background: transparent url(http://s3.amazonaws.com/sz_images/branding.png) repeat scroll 0%; 
+display: block; 
+width: 70px; 
+height: 18px; 
+text-decoration: none; 
+text-align: center;
+border: 0 none !important;
+}
+A.cpEmbedPageTableCellBrandingLinkIE, A.cpEmbedPageTableCellBrandingLinkIE:link, A.cpEmbedPageTableCellBrandingLinkIE:visited, A.cpEmbedPageTableCellBrandingLinkIE:hover, A.cpEmbedPageTableCellBrandingLinkIE:active{
+background:none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://s3.amazonaws.com/sz_images/branding.png',sizingMethod='scale');
+}
+
+.cpPopupContentUserInfoTablePicCell {
+width:16%;
+margin: 0pt; 
+padding: 0pt; 
+background: none;
+}
+.cpPopupContentUserInfoPicBorder {
+border: 2px solid rgb(180, 173, 155); 
+float: left;
+}
+IMG.cpPopupContentUserInfoTablePic {
+width:80px;
+height:80px;
+border: 1px solid rgb(255, 255, 255); 
+margin: 0; 
+padding: 0;
+float: left;
+max-width:200px;
+}
+
+TD.cpPopupContentUserInfoTableDataCell, TD.cpPopupContentContribTableDataCell, TD.cpPopupContentContribTableLinksCell, TD.cpPopupContentRatingLabelCell, TD.cpPopupContentRatingInputCell, TD.cpPopupContentRatingButtonsCell{
+margin: 0; 
+padding: 0; 
+color: rgb(51, 51, 51); 
+}
+TD.cpPopupContentUserInfoTableDataCell {
+padding: 4px 0px; 
+}
+TD.cpPopContentTableSeperator {
+height:2px;
+background: transparent url(http://s3.amazonaws.com/sz_images/all_icons.gif) repeat-x scroll left bottom;
+}
+
+TD.cpPopupContentContribTableDataCell, TD.cpPopupContentContribTableLinksCell {
+padding: 0px 2px 0px 5px; 
+text-align:center;
+}
+
+TD.cpPopupContentContribTableLinksCell {
+text-align:left;
+}
+
+TD.cpPopupContentRatingLabelCell{
+padding: 0pt 5px 2pt 5px;
+width: 22%; 
+text-align: right;
+font-size: 13pt;
+}
+TD.cpPopupContentRatingInputCell{
+width: 78%; 
+text-align: left;
+padding: 0 0 2px 0;
+}
+TD.cpPopupContentRatingButtonsCell{
+padding: 2px 0 0 0; 
+text-align: right;
+background:none;
+}
+
+INPUT.cpPopupContentRatingInputField, INPUT.cpPopupContentRatingInputField:hover, INPUT.cpPopupContentRatingInputField:active, INPUT.cpPopupContentRatingInputField:focus { border: 1px solid rgb(214, 208, 192); font-size: 11pt; width: 97%; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+
+BUTTON.cpPopupContentRatingSubmitButton, BUTTON.cpPopupContentRatingCancelButton, BUTTON.cpPopupContentRatingSubmitButton:hover, BUTTON.cpPopupContentRatingCancelButton:hover { background: transparent url(http://s3.amazonaws.com/sz_images/all_icons.gif) no-repeat scroll left top; width: 58px; height: 24px; background-position: -62px -46px; border: 0 none; }
+
+BUTTON.cpPopupContentRatingCancelButton, BUTTON.cpPopupContentRatingCancelButton:hover { background-position: 0px -46px; }
+
+BUTTON.cpEmbedCommentImgPlus, BUTTON.cpEmbedCommentImgMinus, BUTTON.cpEmbedCommentImgPlus:hover, BUTTON.cpEmbedCommentImgMinus:hover, BUTTON.cpEmbedCommentImgPlus:focus, BUTTON.cpEmbedCommentImgMinus:focus, BUTTON.cpEmbedCommentImgPlus:active, BUTTON.cpEmbedCommentImgMinus:active{ border: 0 none; margin: 0 4px 0 0; padding: 0; width: 11px; height:11px; background: transparent url(http://s3.amazonaws.com/sz_images/all_icons.gif) repeat-x scroll top left; background-position: -55px -74px; vertical-align:middle; } 
+BUTTON.cpEmbedCommentImgMinus, BUTTON.cpEmbedCommentImgMinus:hover, BUTTON.cpEmbedCommentImgMinus:focus, BUTTON.cpEmbedCommentImgMinus:active{ background-position: -42px -74px; } 
+
+BUTTON.cpEmbedScoreSquareImgon, BUTTON.cpEmbedScoreSquareImgoff, BUTTON.cpEmbedScoreSquareImghalf, 
+BUTTON.cpEmbedScoreSquareImgon:hover, BUTTON.cpEmbedScoreSquareImgoff:hover, BUTTON.cpEmbedScoreSquareImghalf:hover,
+BUTTON.cpEmbedScoreSquareImgon:active, BUTTON.cpEmbedScoreSquareImgoff:active, BUTTON.cpEmbedScoreSquareImghalf:active,
+BUTTON.cpEmbedScoreSquareImgon:focus, BUTTON.cpEmbedScoreSquareImgoff:focus, BUTTON.cpEmbedScoreSquareImghalf:focus { border: 0 none; margin: 0 1px; padding: 0; width: 12px; height:12px; background: transparent url(http://s3.amazonaws.com/sz_images/all_icons.gif) repeat-x scroll top left; background-position: 0px -74px; vertical-align:middle; } 
+
+BUTTON.cpEmbedScoreSquareImgoff, BUTTON.cpEmbedScoreSquareImgoff:hover, BUTTON.cpEmbedScoreSquareImgoff:active, BUTTON.cpEmbedScoreSquareImgoff:focus { background-position: -28px -74px; }
+BUTTON.cpEmbedScoreSquareImghalf, BUTTON.cpEmbedScoreSquareImghalf:hover, BUTTON.cpEmbedScoreSquareImghalf:active, BUTTON.cpEmbedScoreSquareImghalf:focus { background-position: -14px -74px; }
+
+BUTTON.cpPopupContentUserStarImgon, BUTTON.cpPopupContentUserStarImgoff, BUTTON.cpPopupContentUserStarImghalf, 
+BUTTON.cpPopupContentUserStarImgon:hover, BUTTON.cpPopupContentUserStarImgoff:hover, BUTTON.cpPopupContentUserStarImghalf:hover,
+BUTTON.cpPopupContentUserStarImgon:focus, BUTTON.cpPopupContentUserStarImgoff:focus, BUTTON.cpPopupContentUserStarImghalf:focus,
+BUTTON.cpPopupContentUserStarImgon:active, BUTTON.cpPopupContentUserStarImgoff:active, BUTTON.cpPopupContentUserStarImghalf:active { border: 0 none; margin: 0; padding: 0; width: 18px; height:18px; background: transparent url(http://s3.amazonaws.com/sz_images/all_icons.gif) repeat-x scroll top left; } 
+BUTTON.cpPopupContentUserStarImgoff, BUTTON.cpPopupContentUserStarImgoff:hover, BUTTON.cpPopupContentUserStarImgoff:focus, BUTTON.cpPopupContentUserStarImgoff:active { background-position: -36px 0px; }
+BUTTON.cpPopupContentUserStarImghalf, BUTTON.cpPopupContentUserStarImghalf:hover, BUTTON.cpPopupContentUserStarImghalf:focus, BUTTON.cpPopupContentUserStarImghalf:active { background-position: -18px 0px; }
+a.cpPopupContentLink, a.cpPopupContentLink:link, a.cpPopupContentLink:visited, a.cpPopupContentLink:hover, a.cpPopupContentLink:active, 
+a.cpPopupContentButtonLink, a.cpPopupContentButtonLink:link, a.cpPopupContentButtonLink:visited, a.cpPopupContentButtonLink:hover, a.cpPopupContentButtonLink:active { border: 0pt none ; text-decoration: none; color: rgb(27, 81, 142); font-size: 8pt; font-weight: bold; font-family: tahoma; background:none; }
+a.cpPopupContentLink:hover, a.cpPopupContentButtonLink:hover { text-decoration: underline; }
+a.cpPopupContentButtonLink ,  a.cpPopupContentButtonLink:link, a.cpPopupContentButtonLink:visited, a.cpPopupContentButtonLink:hover, a.cpPopupContentButtonLink:active { padding-left: 25px; padding-top: 2px; height: 24px; margin-right: 1px; margin-top: 1px; background: transparent url(http://s3.amazonaws.com/sz_images/all_icons.gif) repeat-x; background-position: 0px -20px; }
+.cpPopupContentAlignRight{ text-align: right; float:right; }
+.cpPopupContentDivWithBorder { border:1px solid #f3f5e9; padding:1px; margin:2px 0 0 0; }
+.cpPopupContentTableWithBorder { border:1px solid white; padding:0; margin:0; }
+TD.cpPopupContentContribTableHeaderCellA, TD.cpPopupContentContribTableHeaderCellB, TD.cpPopupContentContribTableHeaderCellC, TD.cpPopupContentContribTableHeaderCellD, TD.cpPopupContentContribTableHeaderCellE { margin: 0; padding: 0px 0px 2px 5px; background: #f3f5e9 none repeat scroll 0%; color: #626569; font-family: Tahoma; font-size: 8pt; font-weight: bolder; border:2px solid white; text-align:left; line-height:100%; }
+TD.cpPopupContentContribTableHeaderCellA{ width:12%; }
+TD.cpPopupContentContribTableHeaderCellB{ width:66%; }
+TD.cpPopupContentContribTableHeaderCellC{ width:7%; }
+TD.cpPopupContentContribTableHeaderCellD{ width:7%; }
+TD.cpPopupContentContribTableHeaderCellE{ width:7%; }
+FORM.cpPopupContentForm { border: none; padding: 5px 0pt 0pt 0pt; }
+SPAN.cpPopupErrorSpanHidden { visibility: hidden; }
+SPAN.cpPopupErrorSpanDisplayed { visibility: visible; display: block; color:#ff0000; text-align:center; font-size:9pt; }
+
+.szRCEmbedTableClass img {border: 0; }
+.szRCEmbedTableClass * { border:0; text-indent: 0; margin: 0; padding: 0; height:auto; text-transform:none; text-align:left; line-height:normal; outline: 0 none; vertical-align:middle}
+.szBadgeBody * { border:0; text-indent: 0; margin: 0; padding: 0; height:auto; text-transform:none; text-align:center; line-height:normal; outline: 0 none; vertical-align:middle}
+.szRCEmbedTableClass table, .szRCEmbedTableClass p, .szRCEmbedTableClass TR, .szRCEmbedTableClass TD, .szRCEmbedTableClass col {background:none;}
+.szRCEmbedTableClass a:hover, .szRCEmbedTableClass input:hover, .szRCEmbedTableClass button:hover { border:0; }
+
+Table.szRCEmbedTableClass{ border-collapse:collapse; font-family: tahoma, Verdana, Arial, Helvetica, sans-serif; margin: 5px 0px; border:0 none; padding: 0; }
+Table.szRCEmbedTableClass th{ margin:0; border:0 none; padding: 5px; color: #9f1c26; font-size:14pt; text-align:left; font-family: Arial, Helvetica, sans-serif; border-bottom: 1px dotted #9f1c26; font-weight:bold}
+Table.szRCEmbedTableClass th  #szRCEmbedTitleID, TD.szRCEmbedBrandingCell{ text-align:center; }
+Table.szRCEmbedTableClass td{ margin:0; border:0 none; padding: 2px 5px; font-size:10px; line-height:1.2; }
+Table.szRCEmbedTableClass TD.szRCEmbedBrandingCell{/*Wierd FF alignment bug*/ padding-top: 5px; text-align:-moz-center; }
+Table.szRCEmbedTableClass  TD.szRCEmbedTableSeperator { height:2px; padding:0; background: transparent url(http://s3.amazonaws.com/sz_images/all_icons.gif) repeat-x scroll left bottom; }
+img.szRCEmbedImage{ white-space:60px; height:40px; width:40px; }
+a.szEmbedCommetLink, a.szEmbedCommeterName, a.szEmbedCommetLink:hover, a.szEmbedCommeterName:hover { border: 0pt none ; text-decoration: none; color: rgb(27, 81, 142); font-size: 8pt; font-weight: bold; font-family: tahoma; background:none; vertical-align:top}
+a.szEmbedCommetLink, a.szEmbedCommetLink:hover {font-size: 7pt; }
+a.szEmbedCommetLink:hover, a.szEmbedCommeterName:hover { text-decoration: underline; }
+
+BUTTON.szRCStarImgon, BUTTON.szRCStarImgoff, BUTTON.szRCStarImghalf, 
+BUTTON.szRCStarImgon:hover, BUTTON.szRCStarImgoff:hover, BUTTON.szRCStarImghalf:hover,
+BUTTON.szRCStarImgon:focus, BUTTON.szRCStarImgoff:focus, BUTTON.szRCStarImghalf:focus,
+BUTTON.szRCStarImgon:active, BUTTON.szRCStarImgoff:active, BUTTON.szRCStarImghalf:active { border: 0 none; margin: 0; padding: 0; width: 13px; height:13px; background: transparent url(http://s3.amazonaws.com/sz_images/all_icons.gif) repeat-x scroll top left; background-position: -72px 0px; }
+BUTTON.szRCStarImgoff, BUTTON.szRCStarImgoff:hover, BUTTON.szRCStarImgoff:focus, BUTTON.szRCStarImgoff:active { background-position: -100px 0px; }
+BUTTON.szRCStarImghalf, BUTTON.szRCStarImghalf:hover, BUTTON.szRCStarImghalf:focus, BUTTON.szRCStarImghalf:active { background-position: -86px 0px; }
+
+table.szBadgeBody {background:url(http://s3.amazonaws.com/sz_images/chicklet.png) no-repeat top left;width:98px;height:136px; border:0 none; text-align:center;vertical-align:middle;padding:0;margin:0}
+table.szBadgeBodyIE{background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://s3.amazonaws.com/sz_images/chicklet.png',sizingMethod='scale'); }
+TD.szBadgeBodyFiller{height:10px;border:0 none;padding:0;margin:0;width:100%}
+TD.szBadgeBodyDataName{height:38px;border:0 none;padding:0;margin:0;width:100%;vertical-align:middle;}
+TD.szBadgeBodyDataSP{height:10px;width:100%;color:white; font-family:Arial, Helvetica, sans-serif; font-size:10px;vertical-align:bottom; border:0 none;padding:0;margin:0;}
+TD.szBadgeBodyDataButtons{height:18px; width:100%; vertical-align:top;border:0 none;padding:0;margin:0;}
+TD.szBadgeBodyLogo{height:50px; text-align:-moz-center; width:100%; border:0 none; padding:0;margin:0; vertical-align:middle;}
+a.szBadgeBodyLogoLink {background:none; position: relative; display: block; width: 70px; height: 18px; border: 0 none;  padding:0;margin:0; text-decoration: none;}
+a.szBadgeBodyDataNameLink, a.szBadgeBodyDataNameLink:hover {position: relative; background:none; border:0pt none; color:white; font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:bold;  margin:0pt; padding:0pt; vertical-align:middle; text-decoration:none }
+a.szBadgeBodyDataNameLink:hover{text-decoration: underline; }
+a.szBadgeBodyLogoLink:hover{background:none;  border:0; text-decoration: none; }
+
+BUTTON.cpPopupContentUserStarImgonBG, BUTTON.cpPopupContentUserStarImgoffBG, BUTTON.cpPopupContentUserStarImghalfBG,
+BUTTON.cpPopupContentUserStarImgonBG:hover, BUTTON.cpPopupContentUserStarImgoffBG:hover, BUTTON.cpPopupContentUserStarImghalfBG:hover,
+BUTTON.cpPopupContentUserStarImgonBG:focus, BUTTON.cpPopupContentUserStarImgoffBG:focus, BUTTON.cpPopupContentUserStarImghalfBG:focus,
+BUTTON.cpPopupContentUserStarImgonBG:active, BUTTON.cpPopupContentUserStarImgoffBG:active, BUTTON.cpPopupContentUserStarImghalfBG:active {position: relative; border: 0 none; margin: 0; padding: 0; width: 13px; height:16px; background: transparent url(http://s3.amazonaws.com/sz_images/all_icons.gif) repeat-x scroll top left; background-position: -1px -124px; }
+BUTTON.cpPopupContentUserStarImgoffBG, BUTTON.cpPopupContentUserStarImgoffBG:hover, BUTTON.cpPopupContentUserStarImgoffBG:focus, BUTTON.cpPopupContentUserStarImgoffBG:active { background-position: -39px -124px; }
+BUTTON.cpPopupContentUserStarImghalfBG, BUTTON.cpPopupContentUserStarImghalfBG:hover, BUTTON.cpPopupContentUserStarImghalfBG:focus, BUTTON.cpPopupContentUserStarImghalfBG:active { background-position: -20px -124px; }
+
+.cpEmbedImageLinkContainer {width:55px; height:50px;}
+#.cpEmbedImageLinkContainer,.cpEmbedImageUserLink, .cpEmbedImageUserLinkh,  .cpEmbedImageUser, .cpEmbedImageUserh, .cpEmbedImageUserLink:active, .cpEmbedImageUserLink:hover, .cpEmbedImageUserLink:focus, .cpEmbedImageUserLinkh:active, .cpEmbedImageUserLinkh:hover, .cpEmbedImageUserLinkh:focus {border:0 none; text-indent: 0; margin: 0 !important; padding: 0 !important; height:auto; text-transform:none; text-align:left; line-height:normal; vertical-align:middle; position:relative;z-index:999;text-decoration: none; background:none;margin:0px;padding:0px;float:left;}
+#.cpEmbedImageUserLink, .cpEmbedImageUserLinkh, .cpEmbedImageUserLink:active, .cpEmbedImageUserLink:hover, .cpEmbedImageUserLink:focus, .cpEmbedImageUserLinkh:active, .cpEmbedImageUserLinkh:hover, .cpEmbedImageUserLinkh:focus  {border:0 none !important;}
+.cpEmbedImageUser {border:1px solid #000 !important;margin-top:1px !important;max-width:200px;height:50px;width:50px;}
+.cpEmbedImageUserh {border:1px solid #000 !important;height:32px;width:32px;margin:1px 5px 1px 1px !important;float:left;max-width:200px;}
+img.cpEmbedImageAuthor, img.cpEmbedImageAuthor:active, img.cpEmbedImageAuthor:hover, img.cpEmbedImageAuthor:focus {border:1px solid #b4ad9b !important;height:16px;width:16px;margin:1px 5px !important;max-width:200px;text-decoration:none !important;vertical-align: text-bottom;padding:0 !important}
+#.cpEmbedImageUserLinkh , .cpEmbedImageUserLinkh:active, .cpEmbedImageUserLinkh:hover, .cpEmbedImageUserLinkh:focus {float:left}
+
+.cpPopupContentTypeBlog { width:17px; height:17px; background: transparent url(http://s3.amazonaws.com/sz_images/all_icons.gif) no-repeat top right; background-position: -63px -125px; text-decoration: none; } 
+.cpPopupContentTypeBB { width:17px; height:17px; background: transparent url(http://s3.amazonaws.com/sz_images/all_icons.gif) no-repeat top right; background-position: -83px -125px; text-decoration: none; }
+.cpPopupContentTypeComment { width:17px; height:17px; background: transparent url(http://s3.amazonaws.com/sz_images/all_icons.gif) no-repeat top right; background-position: -99px -125px; text-decoration: none; } 
+
+.cpEmbedPageTable ul.cpEmbedPostScoreUl, .cpEmbedPageTable  ul.cpEmbedProcessingWait , .cpEmbedPageTable ul.cpEmbedCommScoreUl, .cpEmbedPageTable ul.cpEmbedProcessingWait, .cpEmbedPageTable .cpEmbedPageTable  { LIST-STYLE: none; MARGIN: 0 !important; PADDING: 0 !important; WIDTH: 34px; HEIGHT: 17px;  POSITION: relative; FLOAT: left; BACKGROUND: transparent url('http://s3.amazonaws.com/sz_images/aqua_thumbs2.png') top left;CURSOR: pointer; }
+
+ul.cpEmbedCommScoreUlHover1  { LIST-STYLE: none; MARGIN: 0 !important; PADDING: 0 !important; WIDTH: 34px; HEIGHT: 17px;  POSITION: relative; FLOAT: left; BACKGROUND: transparent url('http://s3.amazonaws.com/sz_images/aqua_thumbs2.png') repeat-x scroll 34px -17px }
+ul.cpEmbedCommScoreUlHover2  { LIST-STYLE: none; MARGIN: 0 !important; PADDING: 0 !important; WIDTH: 34px; HEIGHT: 17px;  POSITION: relative; FLOAT: left; BACKGROUND: transparent url('http://s3.amazonaws.com/sz_images/aqua_thumbs2.png') repeat-x scroll 0px -34px }
+ul.cpEmbedPostScoreUlHover1 { LIST-STYLE: none; MARGIN: 0 !important; PADDING: 0 !important; WIDTH: 34px; HEIGHT: 17px;  POSITION: relative; FLOAT: left; BACKGROUND: transparent url('http://s3.amazonaws.com/sz_images/aqua_thumbs2.png') repeat-x scroll 34px -17px }
+ul.cpEmbedPostScoreUlHover2 { LIST-STYLE: none; MARGIN: 0 !important; PADDING: 0 !important; WIDTH: 34px; HEIGHT: 17px;  POSITION: relative; FLOAT: left; BACKGROUND: transparent url('http://s3.amazonaws.com/sz_images/aqua_thumbs2.png') repeat-x scroll 0px -34px }
+
+.cpEmbedPageTable li,.cpEmbedPageTable li { PADDING: 0 !important; MARGIN: 0 !important; FLOAT: left; DISPLAY: none; WIDTH: 34px; HEIGHT: 17px; TEXT-DECORATION: none; Z-INDEX: 20; }
+.cpEmbedPageTable li.cpEmbedPostScoreLi,.cpEmbedPageTable li.cpEmbedCommScoreLi { DISPLAY: none;BACKGROUND: url('http://s3.amazonaws.com/sz_images/aqua_thumbs2.png') top left; FONT-SIZE: 1px; }
+.cpEmbedPageTable li.cpEmbedPostScoreLiHover,.cpEmbedPageTable li.cpEmbedCommScoreLiHover { BACKGROUND: url('http://s3.amazonaws.com/sz_images/aqua_thumbs2.png') top left; background-position: 0px -17px; FONT-SIZE: 1px; }
+.cpEmbedPageTable ul.cpEmbedProcessingWait, .cpEmbedPageTable ul.cpEmbedProcessingWait {BACKGROUND: transparent url('http://s3.amazonaws.com/sz_images/aqua_thumbs2.png') no-repeat center center;}
+img.cpEmbedImageAuthor, img.cpEmbedImageAuthor:active, img.cpEmbedImageAuthor:hover, img.cpEmbedImageAuthor:focus {height:16px;width:16px;}
+.cpEmbedImageUserh {height:32px;width:32px;float:left;}
+
+

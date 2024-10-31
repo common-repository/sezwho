@@ -1,0 +1,60 @@
+=== SezWho Comments ===
+Requires at least: 2.1
+Tested up to: 2.5.1
+
+SezWho comments is a themable nested comment template designed to integrate with the SezWho rating system but to also function on its own.
+
+
+== Description ==
+
+SezWho comments take advantage of the built in WordPress parent comment relationship ability to give users the ability to reply to a specific comment and to have that reply nest underneath the parent comment. The comments were designed to work with the SezWho comment rating system but were also designed to maintain full nesting and reply functionality even when the SezWho plugin is not available. Separate install instructions are included for that below.
+
+
+== Installation ==
+
+= Upgrade =
+
+* Download the plugin.
+* Unzip or copy the files into the sezwho directory (wp-content/plugins/sezwho). This should replace the existing content in the wp-content/plugins/sezwho folder.
+* You are done... The first page might take a few seconds after you put in the new version as the plugin checks the status of the schema etc. but you should be flying after that.
+
+= Standard Install = 
+
+* Download the plugin.
+* Unzip or copy the files into WordPress plug-in directory (wp-content/plugins). This should create a folder in wp-content/plugins/sezwho.
+* Go to WordPress plug-ins page and activate the plugin.
+* Enter your blog key ([Get your blog key here](http://sezwho.com/register.php)) in the SezWho plug-in configuration (under the plug-ins tab) page.
+* You are almost there...The plugin should be functional now. The only thing remaining to do is to add the new sidebar widgets. To do that go to Presentation->Widgets page in your Wordpress admin screens to place and configure the Red Carpet and Badge Widgets (these widgets should show up in the "Available Widgets" section to be dragged and dropped in the sidebar) on the sidebar. If you need more than one Badge widget, you can add them at the bottom of the screen.
+ 
+After the installation is complete, access a post that has comments and make sure that the comment score and comment ratings bar is showing as [in this screenshot](http://sezwho.com/popup_help.php).
+
+If you are not seeing the SezWho additions to you comments pages, you might want to check out the [detailed instructions with pictures](http://sezwho.com/install_wp_d.php#detailed). If you are still having problems or you want more control over the automatic layout, you should check out how to [manually modify your theme template](http://sezwho.com/install_wp_d.php#template).
+
+= Use the included Threaded Comments Template =
+
+The SezWho plugin comes with a built in threaded comments template that is integrated with the SezWho ratings system. To use this template simply check the "Enable Comment Template" option in the SezWho plugin configuration page (at the top).
+
+Auto loading of the template requires that your theme use the built in wordpress `comment_template()` function for loading comments templates. In the event that your comments don't change in appearance when you enable the comments template you will need to: 
+
+* Manually back up your theme's current `comments.php` file (ie: rename the file to `comments.php.bak`).
+* Copy the `comments_template.php` file from the SezWho plugin folder into your theme folder and rename it to comments.php
+
+= Comments Template only install =
+
+It is also possible to use the comments template without activating the SezWho plugin.
+
+* Follow Upgrade or Standard install proceedures to download the plugin to your WordPress plugins folder.
+* Do not activate the plugin.
+* Backup your theme's comments.php file (ie: rename the file to `comments.php.bak`).
+* Copy the `comments_template.php` file from the SezWho plugin folder into your theme folder and rename it to `comments.php`
+* Copy the supplied PHP code at the top of the new `comments.php` file into your theme's `functions.php` file. This code can go anywhere in the `functions.php` file.
+
+If you later decide to activate the SezWho plugin you will need to edit your functions.php file to comment out or remove the new function from the instructions above.
+
+
+== Frequently Asked Questions ==
+
+= Question =
+
+Answer
+
